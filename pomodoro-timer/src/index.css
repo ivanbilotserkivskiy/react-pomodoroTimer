@@ -1,0 +1,14 @@
+body {
+  background-color: #333;
+  font-family: 'Noto Sans', sans-serif;
+  
+}
+
+.workPage-div {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #333;
+}

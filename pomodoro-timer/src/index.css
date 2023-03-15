@@ -1,14 +1,71 @@
 body {
-  background-color: #333;
+  background-color: #AC5D6C;
   font-family: 'Noto Sans', sans-serif;
   
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .workPage-div {
-  padding-top: 20px;
+  background-color: #F2D7DC;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #333;
+  width: 573px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+}
+.workPage-timer {
+  color: #5C5656;
+  font-weight: 600;
+  font-size: 96px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.controlBtn-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.controlBtn-div button {
+  width: 162px;
+  height: 60px;
+  border-radius: 20px;
+  border-style: none;
+  color: #5C5656;
+  font-weight: 600;
+  font-size: 24px;
+  background-color: #F2D7DC
+}
+.controlBtn-div button:not(:last-child){
+  margin-right: 50px;
+
+
+}
+.modeBtn-div {
+  margin-top: 10px;
+}
+
+.modeBtn-div button{
+  background-color: #F2D7DC;
+  border-radius: 20px;
+  border-style: none;
+  color: #5C5656;
+  font-weight: 600;
+  font-size: 16px;
+}
+.modeBtn-div button:not(:last-child){
+  margin-right: 50px;
+
+
 }

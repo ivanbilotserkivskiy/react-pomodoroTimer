@@ -76,5 +76,5 @@ export default function Timer(){
         }
             )
         }
-    return {startTimer,stopTimer, timerObj, timerState, resetTimer}
+    return {startTimer,stopTimer, timerObj, timerState, resetTimer, setTimerObj}
 }
